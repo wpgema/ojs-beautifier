@@ -1,6 +1,3 @@
-/* =========================
-   HILANGKAN BRANDING OJS
-========================= */
 .pkp_brand_footer {
     display: none !important;
 }
@@ -9,12 +6,9 @@
     display: none !important;
 }
 
-/* =========================
-   HEADER CUSTOM
-========================= */
 .pkp_site_name_wrapper {
     background-image: url('https://rumahjurnal.bigtechnology.id/images/logo-header-ptk.png');
-    background-size: cover; /* full background */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -27,17 +21,14 @@
     position: relative;
 }
 
-/* Overlay biar teks kebaca */
 .pkp_site_name_wrapper::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.4); /* gelap transparan */
+    background: rgba(0,0,0,0.4);
 }
 
-/* =========================
-   TEKS JUDUL JURNAL
-========================= */
+
 .pkp_site_name {
     position: relative;
     z-index: 2;
@@ -54,9 +45,6 @@
     font-weight: 500;
 }
 
-/* =========================
-   RESPONSIVE (MOBILE)
-========================= */
 @media (max-width: 768px) {
     .pkp_site_name_wrapper {
         height: 140px;
