@@ -1,0 +1,8 @@
+html, body {
+    background-image: url("https://rumahjurnal.bigtechnology.id/public/site/images/bigtechnologyojs/bush.png") !important;
+    background-repeat: repeat !important;
+}
+
+.pkp_brand_footer {
+    display: none;
+}
